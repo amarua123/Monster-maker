@@ -7,7 +7,7 @@ public class Main {
 //        Monster m2 = new Monster("BLUE", "PINK", "WATER", "CHANGE SIZE", 200, 100, 300, 100);
 
         List<Monster> monsters = new ArrayList<>();
-        List<Monster> ch = new ArrayList<>();
+        Set<Monster> ch = new HashSet<>();
         Scanner in = new Scanner(System.in);
         System.out.println("Enter the no. of Monster you want to enter: ");
         int no = in.nextInt();
